@@ -8,8 +8,7 @@ const CLIENTS = [
   "spotify",
   "pinterest",
   "google",
-  "amazon",
-  "netflix",
+  "capstone",
 ];
 
 export function PopularClients() {
@@ -17,10 +16,17 @@ export function PopularClients() {
     <section className="py-8 px-8 lg:py-20">
       <div className="container mx-auto grid items-center place-items-center">
         <div className="text-center">
-          <Typography variant="h6" className="mb-4 uppercase !text-gray-500">
+          <Typography variant="h6" className="mb-4 uppercase !text-gray-500" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
             POPULAR CLIENTS
           </Typography>
-          <Typography variant="h2" color="blue-gray" className="mb-4">
+          <Typography
+            variant="h2"
+            color="blue-gray"
+            className="mb-4"
+            placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
+          >
             Trusted by over 10,000+ <br /> clients
           </Typography>
         </div>
@@ -35,6 +41,20 @@ export function PopularClients() {
               className="w-40 grayscale opacity-75"
             />
           ))}
+          <Image
+              alt="fiqra"
+              width={480}
+              height={480}
+              src={`/logos/logo-fiqra.png`}
+              className="w-40 grayscale opacity-75"
+            />
+            <Image
+              alt="beauty_relief"
+              width={480}
+              height={480}
+              src={`/logos/logo-beauty_relief.png`}
+              className="w-40 grayscale opacity-75"
+            />
         </div>
       </div>
     </section>

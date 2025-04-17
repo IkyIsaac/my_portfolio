@@ -17,7 +17,7 @@ export function PopularClients() {
       <div className="container mx-auto grid items-center place-items-center">
         <div className="text-center">
           <Typography variant="h6" className="mb-4 uppercase !text-gray-500" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
-            POPULAR CLIENTS
+           MY TECH STACK
           </Typography>
           <Typography
             variant="h2"
@@ -27,7 +27,7 @@ export function PopularClients() {
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
           >
-            Trusted by over 10,000+ <br /> clients
+           TECHNOLOGIES I&apos;VE WORKED WITH
           </Typography>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-6 mt-8">
